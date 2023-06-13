@@ -1,0 +1,124 @@
+body {
+    background-color: lightgray;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: inline;
+}
+
+.box,
+.container {
+    background-color: white;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bt-task {
+    color: white;
+    background-color: #47ADF1;
+    border-color: #47ADF1;
+}
+
+.bt-section {
+    color: lightgray;
+    background-color: white;
+    border-color: lightgrey;
+}
+
+hr {
+    width: 100%;
+
+}
+
+.bt-task,
+.bt-section {
+    padding: 5px 10px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.padding-top {
+    padding-top: 20px;
+}
+
+.text-bold {
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+.ent-right {
+    border: 1px solid #BDE6DE;
+    border-radius: 100%;
+    color:#BDE6DE;
+}
+
+.ent-wrong {
+    border: 1px solid red;
+    border-radius: 100%;
+    color:red;
+}
+
+/* span.txt {
+    padding: 4px 6px;
+    border-radius: 8px;
+    font-size: 0.5rem;
+    color: white;
+*/
+
+.txt-blue {
+    padding: 4px 6px;
+    border-radius: 8px;
+    font-size: 0.5rem;
+    background-color: #45ABEA;
+    color: white;
+
+}
+
+.txt-purple {
+    padding: 4px 6px;
+    border-radius: 8px;
+    font-size: 0.5rem;
+    background-color: #9C72E4;
+    color: white;
+}
+
+.txt-green {
+    padding: 4px 6px;
+    border-radius: 8px;
+    font-size: 0.5rem;
+    background-color: #64C0A9;
+    color: white;
+}
+
+.txt-orange {
+    padding: 4px 6px;
+    border-radius: 8px;
+    font-size: 0.5rem;
+    background-color: #F29E33;
+    color: white;
+}
+
+.txt-pink {
+    padding: 4px 6px;
+    border-radius: 8px;
+    font-size: 0.5rem;
+    background-color: #D863A1;
+    color: white;
+}
+
+.txt-lime {
+    padding: 4px 6px;
+    border-radius: 8px;
+    font-size: 0.5rem;
+    background-color: #B0C926;
+    color: white;
+}
