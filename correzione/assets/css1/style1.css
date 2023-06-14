@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Generics*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+ul {
+    text-decoration: none;
+}
+
+/*Header*/
+/*1. per allineare titolo e logo */
+header {
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+    padding: 0 15px;
+}
+
+.logo-text {
+    display: inline-block;
+}
+
+/*2. per allineare titolo e logo */
+.logo-text,
+.logo-img {
+    vertical-align: middle;
+}
+
+/*Utilis*/
+
+.btn {
+    display:inline-block;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+    text-decoration: none;
+    font-size: 1rem;
+
+    cursor: pointer;
+
+    border: 1px solid currentColor; /*cambia il colore in base al Color*/
+    background-color: #45ABEA;
+    color: white;
+
+}
+
+.btn.btn-primary {
+    border: 1px solid #45ABEA;
+    background-color: #45ABEA;
+    color: white;
+}
+
+.btn.btn-outline {
+    border: 1px solid gray;
+    background-color: white;
+    color: gray;
+}
+
+
+/*Cards*/
+.card {
+    width: 50%;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.card-header {
+    border-bottom: 2px solid gray;
+    
+}
+
+.card-header,
+.card-content {
+    padding: 20px;
+}
+
+.card h3 {
+    margin: 40px 0 15px;
+
+}
+
+
+.item {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+
+    line-height: 20px;
+    text-align: center;
+
+    border: 1px solid currentColor;
+    border-radius: 50%;
+}
+
+.item-done {
+    color: green;
+}
+
+.item-todo {
+    color:red;
+}
+
+.label {
+    display:inline-block;
+    padding: 5px 10px;
+    color:white;
+    font-weight: bold;
+    font-size: .6rem;
+    background-color: lightblue;
+    border-radius: 6px;
+    margin: 5px;
+}
+
+/* figlio diretto: tutto ciò che è figlio diretto di li*/
+
+li > * {
+    vertical-align: middle;
+}
+
+
+
+/*Pseudo elementi ::before che richiede sempre la proprietà content*/
+
+.Item {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 8px 0;
+
+    line-height: 20px;
+    text-align: center;
+    
+    border: 1px solid currentColor;
+    border-radius: 50%;
+}
+
+.Item.itemDone::before{
+    content: '\2713';
+    color:green;
+}
+
+.Item.itemUndone::before{
+    content: '\2717';
+    color:red;
+}
+
